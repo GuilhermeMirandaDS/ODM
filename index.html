@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/style.css">
+        <title>HomePage</title>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <img src="assets/img/logo.png" class="logo" style="width: 50px; border-radius: 500px;">
+                <div class="teste" style="align-items: right; justify-content: right; padding-right: 500px; text-decoration: none;">
+                    <a href="index.html" class="pendentes" style="color: black; padding: 8px; text-decoration: none;">Início</a>
+                    <a href="pendentes.html" class="pendentes" style="color: black; padding: 8px; text-decoration: none;">Pedidos Aceitos</a>
+                    <a href="historico.html" class="historico" style="color: black;  padding: 8px; text-decoration: none;">Histórico de Pedidos</a>
+                </div>
+                <div class="searchbar" style="background-color: rgb(235, 235, 235);">
+                    <input type="text" class="inputsearch" placeholder="Digite sua pesquisa..." style="padding: 8px; width:160px; background-color: rgb(235, 235, 235); border-radius: 500px;">
+                    <img class="searchicon" src="./assets/img/search_FILL0_wght400_GRAD0_opsz24.svg" style="padding: 4px;">
+                </div>
+                <div class="user" style="align-items: center; display: flex; ">
+                <a href="userpage.html"class="username" style="color: black; width: 110px; padding-left: 8px;"><img class="userpic" src="">Gabriela Leal</a>
+                <img src="/assets/img/pfp.jpg" style="width: 48px; border-radius: 500px; padding:8px">
+                <a href="login.html" style="color: black;">Sair</a>
+            </div>
+        </div>
+    </header>
+    <h1 class="bem">Bem-Vindo(a), Gabriela!</h1>
+
+    <!-- <div class="menu-lat"></div> -->
+    <div class="horizontal-cards" style="margin-top: -40px;">
+        <div class="card">
+            <div class="iconbox">
+                <img class="icon" src="./assets/img/monitoring_FILL1_wght400_GRAD0_opsz24.svg">
+            </div>
+            <div class="cardinfo">
+                <h2>Meta de Entregas</h2>
+                <p>15/30 Mês</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="iconbox">
+                <img class="icon" src="./assets/img/person_FILL1_wght400_GRAD0_opsz24.svg">
+            </div>
+            <div class="cardinfo">  
+                <h2>Usuários Ativos</h2>
+                <p>198</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="iconbox">
+                <img class="icon" src="./assets/img/local_shipping_FILL1_wght400_GRAD0_opsz24.svg">
+            </div>
+            <div class="cardinfo">
+                <h2>Entregas Realizadas</h2>
+                <p>230</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="iconbox">
+                <img class="icon" src="./assets/img/thumb_up_FILL1_wght400_GRAD0_opsz24.svg">
+            </div>
+            <div class="cardinfo">
+                <h2>Avaliações</h2>
+                <p>546</p>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="iconbox">
+                <img class="icon" src="/assets/img/star_FILL1_wght400_GRAD0_opsz24.svg">
+            </div>
+            <div class="cardinfo">
+                <h2>Estrelas</h2>
+                <p>⭐ 5</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="dashboard">
+        <h1 >Pedidos Pendentes</h1>
+        <p style="color: rgb(151, 151, 151); font-weight: 600; font-size: 16px">Esses foram os últimos pedidos que você recebeu</p>
+        <table class="list">
+            <tr class="topo">
+                <th>Título</th>
+                <th>Endereço</th>
+                <th>Horário</th>
+                <th>Destinatário</th>
+                <th>Entregador</th>
+                <th>Data</th>
+                <th>Ação</th>
+            </tr>
+            <tr class="bodylist">
+                <th>Mesa de Vidro Redonda</th>
+                <th>Rua Presidente Prudente</th>
+                <th>15h</th>
+                <th>Gustavo Bicas</th>
+                <th>Dagoberto Tavares</th>
+                <th>22/04/2023</th>
+                <th>
+                    <button type="submit" class="accept" style="color: rgb(255, 255, 255); background-color: rgb(82, 107, 50); padding: 4px; border-radius: 16px; width: 70px;">Aceitar</button>
+                    <button type="submit" class="Decline" style="color: white; background-color: brown; text-decoration: none; border-radius: 16px; border: none; padding: 4px; width: 70px;">Recusar</button>
+                </th>
+            </tr>
+            <tr class="bodylist">
+                <th>Espelho</th>
+                <th>Rua Takakara Nomuro</th>
+                <th>17h</th>
+                <th>Gabriela Leal Tavares</th>
+                <th>Eduarda Leal Tavares</th>
+                <th>14/09/2023</th>
+                <th>
+                    <button type="submit" class="accept" style="color: rgb(255, 255, 255); background-color: rgb(82, 107, 50); padding: 4px; border-radius: 16px; width: 70px;">Aceitar</button>
+                    <button type="submit" class="Decline" style="color: white; background-color: brown; text-decoration: none; border-radius: 16px; border: none; padding: 4px; width: 70px;">Recusar</button>
+                </th>
+            </tr>
+            <tr class="bodylist">
+                <th>Geladeira Tsunami</th>
+                <th>Avenida Jânio Quadros</th>
+                <th>11h</th>
+                <th>Henrique Lela Taraves</th>
+                <th>Fernando José Cunha</th>
+                <th>25/12/2024</th>
+                <th>
+                    <button type="submit" class="accept" style="color: rgb(255, 255, 255); background-color: rgb(82, 107, 50); padding: 4px; border-radius: 16px; width: 70px;">Aceitar</button>
+                    <button type="submit" class="Decline" style="color: white; background-color: brown; text-decoration: none; border-radius: 16px; border: none; padding: 4px; width: 70px;">Recusar</button>
+                </th>
+            </tr>
+            <tr class="bodylist">
+                <th>Computador Gamer</th>
+                <th>Rua Republica Nova</th>
+                <th>13h</th>
+                <th>Dudu</th>
+                <th>Guilherme Miranda de Sosa</th>
+                <th>18/10/2023</th>
+                <th>
+                    <button type="submit" class="accept" style="color: rgb(255, 255, 255); background-color: rgb(82, 107, 50); padding: 4px; border-radius: 16px; width: 70px;">Aceitar</button>
+                    <button type="submit" class="Decline" style="color: white; background-color: brown; text-decoration: none; border-radius: 16px; border: none; padding: 4px; width: 70px;">Recusar</button>
+                </th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
